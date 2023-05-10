@@ -22,8 +22,6 @@ This is a leave portal for Masai students and employees, where one can apply for
 
 4. After successful validation, the registration data will be stored in LocalStorage.
 
-<img src="https://raw.githubusercontent.com/Kashif-Rezwi/masai-leave-portal/main/templates/Screenshot%202023-05-10%20164802.png" alt="homepage />
-
 5. All the users who have applied for leave will be displayed in the form of a table with all the fields entered during the registration as columns. Along with these fields, a new field called “OTP” will be appended to each user, with a 4-digit number, which will be randomly generated.
 
 6. Each row will also contain “Reject Leave” and “Grant Leave” buttons colored “Red ” and “Green ” respectively.

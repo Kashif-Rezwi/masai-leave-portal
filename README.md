@@ -20,11 +20,15 @@ This is a leave portal for Masai students and employees, where one can apply for
 
 3. On clicking “Apply” the form will be validated and if the user has entered any value that does not match the constraints given, appropriate alerts will be shown.
 
+<img src="https://raw.githubusercontent.com/Kashif-Rezwi/masai-leave-portal/main/templates/Screenshot%202023-05-10%20164802.png" alt="homepage" />
+
 4. After successful validation, the registration data will be stored in LocalStorage.
 
 5. All the users who have applied for leave will be displayed in the form of a table with all the fields entered during the registration as columns. Along with these fields, a new field called “OTP” will be appended to each user, with a 4-digit number, which will be randomly generated.
 
 6. Each row will also contain “Reject Leave” and “Grant Leave” buttons colored “Red ” and “Green ” respectively.
+
+<img src="https://raw.githubusercontent.com/Kashif-Rezwi/masai-leave-portal/main/templates/Screenshot%202023-05-10%20165309.png" alt="dashboard" />
 
 7. Clicking on Reject Leave button, an alert will be shown and that particular row will be removed from the dashboard.
 
@@ -39,6 +43,8 @@ This is a leave portal for Masai students and employees, where one can apply for
 
 All the above functionalities is working togather seamlessly.
 
+<img src="https://raw.githubusercontent.com/Kashif-Rezwi/masai-leave-portal/main/templates/Screenshot%202023-05-10%20165152.png" alt="modal" />
+
 11. The status page is contain all the users who have applied for the leave with the following fields as columns
     - Unique ID
     - Name
@@ -46,3 +52,6 @@ All the above functionalities is working togather seamlessly.
     - Overseer
     - Status (Granted, Rejected, or Pending)
 12. The user will also be able to filter the data based on the status (Granted, Rejected, or Pending).
+
+<img src="https://raw.githubusercontent.com/Kashif-Rezwi/masai-leave-portal/main/templates/Screenshot%202023-05-10%20165254.pn" alt="status page" />
+g

@@ -1,0 +1,16 @@
+section:nth-child(2) {
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 20px;
+}
+
+section:nth-child(2) select,
+section:nth-child(2) input {
+  border-radius: 5px;
+  border: 2px solid gray;
+  padding: 10px;
+  margin: 5px;
+}

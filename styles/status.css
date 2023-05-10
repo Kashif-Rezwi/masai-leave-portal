@@ -1,0 +1,26 @@
+section:nth-child(3) {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+section:nth-child(3) > h1 {
+  margin: 20px 0px;
+}
+
+section:nth-child(3) > table {
+  border: 1px solid gray;
+}
+
+section:nth-child(3) > table th {
+  border: 1px solid gray;
+  text-align: center;
+  padding: 5px 15px;
+}
+
+section:nth-child(3) > table td {
+  border: 1px solid gray;
+  text-align: center;
+  padding: 5px 15px;
+}

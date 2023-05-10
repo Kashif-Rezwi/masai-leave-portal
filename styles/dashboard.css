@@ -1,0 +1,49 @@
+section:nth-child(3) {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  position: relative;
+}
+
+section:nth-child(3) > h1 {
+  margin: 20px 0px;
+}
+
+section:nth-child(3) > table {
+  border: 1px solid gray;
+}
+
+section:nth-child(3) > table th {
+  border: 1px solid gray;
+  text-align: center;
+  padding: 5px 15px;
+}
+
+section:nth-child(3) > table td {
+  border: 1px solid gray;
+  text-align: center;
+  padding: 5px 15px;
+}
+
+section:nth-child(3) > table .acceptButton {
+  width: 120px;
+  color: white;
+  background-color: #198038;
+  font-weight: 500;
+  cursor: pointer;
+  padding: 10px 15px;
+  margin: 5px;
+  border-radius: 3px;
+}
+
+section:nth-child(3) > table .rejectButton {
+  width: 120px;
+  color: white;
+  background-color: #da1e28;
+  font-weight: 500;
+  cursor: pointer;
+  padding: 10px 15px;
+  margin: 5px;
+  border-radius: 3px;
+}

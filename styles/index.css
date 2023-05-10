@@ -1,0 +1,72 @@
+section:nth-child(2) {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+section:nth-child(2) > div {
+  border: 2px solid gray;
+  padding: 20px;
+  margin: 50px 0px;
+  border-radius: 10px;
+}
+
+section:nth-child(2) > div > h1 {
+  width: 100%;
+  text-align: center;
+  color: gray;
+}
+
+section:nth-child(2) > div > form {
+  min-width: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 10px;
+}
+
+section:nth-child(2) > div > form > input,
+textarea {
+  width: 100%;
+  border: 2px solid gray;
+  border-radius: 4px;
+  padding: 10px;
+  margin: 10px 0px;
+}
+
+section:nth-child(2) > div > form > textarea {
+  min-width: 100%;
+  min-height: 100px;
+  max-height: 300px;
+  resize: vertical;
+}
+
+section:nth-child(2) > div > form > div {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 5px 0px;
+}
+
+section:nth-child(2) > div > form > div > select,
+section:nth-child(2) > div > form > div > input {
+  width: 48%;
+  border: 2px solid gray;
+  margin: 5px 0px;
+  padding: 10px;
+  border-radius: 4px;
+}
+
+section:nth-child(2) > div > form > div > label {
+  width: 48%;
+}
+
+section:nth-child(2) > div > form > div > label > input {
+  width: 100%;
+  border: 2px solid gray;
+  margin: 5px 0px;
+  padding: 10px;
+  border-radius: 4px;
+}

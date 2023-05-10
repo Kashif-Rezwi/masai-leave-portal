@@ -1,0 +1,114 @@
+section:nth-child(3) .modal {
+  display: none;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-width: 300px;
+  width: 350px;
+  max-height: 400px;
+  position: absolute;
+  left: 50%;
+  top: 70%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  box-sizing: border-box;
+  padding: 30px 0px;
+  border: 2px solid gray;
+  border-radius: 10px;
+}
+
+section:nth-child(3) .closeModal {
+  position: absolute;
+  right: 13px;
+  top: 10px;
+  cursor: pointer;
+}
+
+section:nth-child(3) .modal h1,
+section:nth-child(3) .modal h3,
+section:nth-child(3) .modal p {
+  color: gray;
+  text-align: center;
+}
+
+section:nth-child(3) .modal > h1 {
+  font-size: 22px;
+}
+
+section:nth-child(3) .modal > div {
+  width: 100%;
+  margin: 10px auto;
+  display: grid;
+  grid-template-columns: repeat(2, 50%);
+}
+
+section:nth-child(3) .modal > div > div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 0px;
+}
+
+section:nth-child(3) .modal > div > div > h3:first-child {
+  font-weight: 500;
+}
+
+section:nth-child(3) .modal > form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+section:nth-child(3) .modal > form > div {
+  width: 200px;
+  margin: 10px;
+}
+
+section:nth-child(3) .modal > form .input-field {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.input-field input {
+  height: 42px;
+  width: 42px;
+  border-radius: 6px;
+  outline: none;
+  font-size: 16px;
+  font-weight: 500;
+  text-align: center;
+  border: 1px solid gray;
+  color: gray;
+}
+
+.input-field input:focus {
+  box-shadow: rgba(0, 0, 0, 0.125) 0px 0px 0px 1px,
+    rgb(56, 125, 228) 0px 0px 0px 1px inset;
+  border: 1px solid #4070f4;
+}
+
+.input-field input::-webkit-inner-spin-button,
+.input-field input::-webkit-outer-spin-button {
+  display: none;
+}
+
+section:nth-child(3) .modal > form > button {
+  width: 150px;
+  padding: 15px;
+  background-color: #16963d;
+  color: white;
+  border-radius: 5px;
+  margin: 5px auto;
+  transition: all 0.2s ease;
+}
+
+section:nth-child(3) .modal > form > button:hover {
+  background: #28a44d;
+}
+
+section:nth-child(3) .modal > form > button:active {
+  background: #09762a;
+}

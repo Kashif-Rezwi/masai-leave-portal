@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Masai Leave Portal</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Serif+Bengali:wght@300;400;500;600;700;800&family=Rubik:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles/navbar.css" />
+    <link rel="stylesheet" href="styles/modal.css" />
+    <link rel="stylesheet" href="styles/dashboard.css" />
+    <link rel="stylesheet" href="styles/filterBox.css" />
+  </head>
+  <body>
+    <nav></nav>
+    <section class="filter"></section>
+    <section>
+      <section class="modal">
+        <h1 class="closeModal">X</h1>
+        <h1>LEAVE APPLICATION</h1>
+        <div>
+          <div>
+            <h3>Applicant</h3>
+            <p class="applicant"></p>
+          </div>
+          <div>
+            <h3>Overseer</h3>
+            <p class="overseer"></p>
+          </div>
+          <div>
+            <h3>From</h3>
+            <p class="from"></p>
+          </div>
+          <div>
+            <h3>To</h3>
+            <p class="to"></p>
+          </div>
+        </div>
+        <h3 class="totalDays"></h3>
+
+        <form>
+          <div class="input-field">
+            <input class="inputs" required type="number" />
+            <input class="inputs" required type="number" disabled />
+            <input class="inputs" required type="number" disabled />
+            <input class="inputs" required type="number" disabled />
+          </div>
+          <button type="submit">Verify OTP</button>
+        </form>
+      </section>
+
+      <h1>Dashboard</h1>
+      <table>
+        <thead>
+          <tr>
+            <th>Unique ID</th>
+            <th>Name</th>
+            <th>Reason for leave</th>
+            <th>Designation</th>
+            <th>Leave Start Date</th>
+            <th>Leave End Date</th>
+            <th>Overseer</th>
+            <th>OTP</th>
+            <th>Actions</th>
+          </tr>
+        </thead>
+        <tbody></tbody>
+      </table>
+    </section>
+  </body>
+  <script src="./scripts/dashboard.js"></script>
+  <script src="./scripts/modal.js"></script>
+  <script src="./components/navbar.js" type="module"></script>
+  <script src="./components/filterBox.js" type="module"></script>
+</html>

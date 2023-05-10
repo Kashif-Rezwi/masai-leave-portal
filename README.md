@@ -53,5 +53,4 @@ All the above functionalities is working togather seamlessly.
     - Status (Granted, Rejected, or Pending)
 12. The user will also be able to filter the data based on the status (Granted, Rejected, or Pending).
 
-<img src="https://raw.githubusercontent.com/Kashif-Rezwi/masai-leave-portal/main/templates/Screenshot%202023-05-10%20165254.pn" alt="status page" />
-g
+<img src="https://raw.githubusercontent.com/Kashif-Rezwi/masai-leave-portal/main/templates/Screenshot%202023-05-10%20165254.png" alt="status page" />
